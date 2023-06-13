@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <div>
+    <div class="contact-book">
+      <form class="add-contacts">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="surname" placeholder="Surname" />
+        <input type="url" id="url" placeholder="Ulr" />
+        <input type="number" id="number" placeholder="Number" />
+        <button id="add-btn">+</button>
+      </form>
+      <div class="contact-container"></div>
+    </div>
+
+
+
+    <div class="modal" id="edit-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>edit to do</h3>
+        <button id="close-modal"></button>
+      </div>
+    
+    <input type="text" id="edit-name" placeholder="edit-name" />
+    <input type="text" id="edit-surname" placeholder="edit surname" />
+    <input type="text" id="edit-url" placeholder="edit url" />
+    <input type="number" id="edit-number" placeholder="edit number" />
+    <div class="edit-footer">
+      <button id="edit-cancel">Cancel</button>
+      <button id="edit-submit">Save</button>
+    </div>
+</div>
+</div>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
